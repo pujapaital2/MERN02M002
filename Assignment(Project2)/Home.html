@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Puja Portfolio - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <header>
+    <div class="logo">PUJA</div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Hamburger icon (visible only on mobile) -->
+<div class="hamburger" onclick="toggleMobileNav()">☰</div>
+
+<!-- Mobile Navigation Menu -->
+<div class="mobile-nav" id="mobileNav">
+  <div class="mobile-photo">
+    <img src="https://thumbs.dreamstime.com/b/png-d-render-young-woman-laptop-professional-avatar-business-illustration-digital-character-female-entrepreneur-online-worker-384929260.jpg" alt="Profile Photo" />
+  </div>
+  <ul>
+    <li><a href="#home" onclick="toggleMobileNav()">Home</a></li>
+    <li><a href="#about" onclick="toggleMobileNav()">About</a></li>
+    <li><a href="#skills" onclick="toggleMobileNav()">Skills</a></li>
+    <li><a href="#projects" onclick="toggleMobileNav()">Projects</a></li>
+    <li><a href="#education" onclick="toggleMobileNav()">Education</a></li>
+    <li><a href="#contact" onclick="toggleMobileNav()">Contact</a></li>
+  </ul>
+</div>
+
+
+  <main>
+    <!-- Home section -->
+ <section id="home" class="home-section">
+  <div class="home-photo">
+    <img src="https://thumbs.dreamstime.com/b/png-d-render-young-woman-laptop-professional-avatar-business-illustration-digital-character-female-entrepreneur-online-worker-384929260.jpg" alt="Profile Photo">
+  </div>
+
+  <div class="home-details">
+    <div class="circle-box">
+      <p class="intro">Hi There, I'm</p>
+      <h1>Puja Paital</h1>
+      <p class="role">I'm a <span id="typed-text"></span><span id="cursor">|</span></p>
+
+      <!-- Resume + Social links in one box -->
+      <div class="resume-social-box">
+        <a href="Puja Paital.pdf" download class="resume-btn">Resume</a>
+        <div class="social-links">
+          <a href="mailto:pujapaital2@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/pujapaital2" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/puja-p-3b2770311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- about section  -->
+    <section id="about" class="about-section">
+  <div class="about-image">
+    <img src="https://www.pxdraft.com/wrap/zemo/zemo/static/img/about-me.png" alt="About Puja">
+  </div>
+  <div class="about-details">
+    <div class="about-box">
+      <h2>About Me</h2>
+      <p><strong>I'm <span class="highlight">Puja Paital</span></strong>, a passionate full stack developer skilled in building clean and efficient applications.</p>
+      <p>I love turning complex problems into simple, beautiful, and intuitive designs. I am always eager to learn new technologies and improve my skills.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Skill section -->
+ <section id="skills" class="skills-modern">
+  <div class="skills-left">
+    <h4 class="subheading">SKILLS</h4>
+    <h2 class="heading-gradient">What I Know</h2>
+    <p>Our area of practice is quite in these tech stacks.</p>
+  </div>
+
+  <div class="skills-right">
+    <div class="skills-grid">
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><p>Java</p></div>
+      <div class="skill-card"><img src="https://simplior.com/wp-content/uploads/2022/05/nodejs-white-web-story.png" alt="node js"><p>nose js</p></div>
+      <div class="skill-card"><img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-black-and-white.png" alt="react"><p>React</p></div>
+      <div class="skill-card"><img src="https://image.pngaaa.com/975/4178975-middle.png" alt="html"><p>HTML</p></div>
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><p>MySQL</p></div>
+      <div class="skill-card"><img src="https://img.icons8.com/fluent/512/css3.png" alt="css"><p>CSS</p></div>
+      <div class="skill-card"><img src="https://www.loopple.com/img/tailwind-logo.png" alt="tailwind css"><p>Tailwind CSS</p></div>
+      <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><p>Git</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Projet  section -->
+<section id="projects" class="projects-section">
+  <h2 class="project-header">MY PROJECTS</h2>
+  <div class="project-container">
+    
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="https://www.cdnlogo.com/logos/d/89/dominos-pizza.svg" alt="pizza Project">
+      <h3>Dominos pizza</h3>
+      <p>Built a responsive multi-page pizza ordering system with modern UI for desktop and mobile.</p>
+      <p class="tech-used"><strong>Tech Used :</strong> JS | CSS | HTML</p>
+      <div class="project-icons">
+        <a href="https://github.com/balsagar91/Qlith-pizza-order" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://dazzling-platypus-23af40.netlify.app/" target="_blank"><i class="fa-regular fa-eye"></i></a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="https://dainty-alfajores-2745cd.netlify.app/Image/Hero.png" alt="SmartBot Clone">
+      <h3>Besic Website</h3>
+      <p>Responsive Website Desktop and Moible</p>
+      <p class="tech-used"><strong>Tech Used :</strong> HTML | CSS </p>
+      <div class="project-icons">
+        <a href="https://biccasqlith.netlify.app/" target="_blank"><i class="fa-regular fa-eye"></i></a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ9ond1r7EP7DAbdvrlClnP8RF3LhIsEn_7A&s" alt="Deccan Herald Clone">
+      <h3>cal.com</h3>
+      <p>Details Card</p>
+      <p class="tech-used"><strong>Tech Used :</strong> HTML | CSS | JavaScript</p>
+      <div class="project-icons">
+        <a href="https://stalwart-mousse-fc87bb.netlify.app/" target="_blank"><i class="fa-regular fa-eye"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- education section  -->
+ <section id="education" class="education-section">
+  <h2 class="section-title">Education</h2>
+
+  <div class="timeline">
+
+    <!-- Education 1 -->
+    <div class="timeline-item">
+      <div class="timeline-logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEQTJJv41Pq9KgqXLCGFjbdIvI-haBC3qjiQ&s" alt="GIFT Bhubaneswar Logo" />
+      </div>
+      <div class="timeline-content">
+        <h3>GIFT Autonomous Bhubaneswar</h3>
+        <p class="date">August 2024 – June 2026</p>
+        <p><strong> Master Degree:</strong> Master in Computer Application</p>
+        <p><strong>Grade:</strong> 7.74 CGPA</p>
+        <p>I am currently pursuing a Master degree in Computer Application. I’ve completed 2 semesters with a CGPA of 7.74.</p>
+      </div>
+    </div>
+
+    <!-- Education 2 -->
+    <div class="timeline-item">
+      <div class="timeline-logo">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgldtN6hc7wu3cFCiY1-9EZWQ4JGzLu4FJWpeieEDipYxxYMJg-H6a7Vk9lMkSSo-IAF1ffBJXeSE3muiam1-r3_UXPhmvTfz-WNWQD8sjJNmtHxQzMZWvWah_nhz8SKZ7pW8_swOzOg8/w200-h140-c/Birupa+College+Logo.png" alt="Cpllege Logo" />
+      </div>
+      <div class="timeline-content">
+        <h3>Birupa Degree college Kendrapara</h3>
+        <p class="date">July 2021 – April 2024</p>
+        <p><strong>Stream:</strong> Science ( PCM )</p>
+        <p><strong>Grade:</strong> 79%</p>
+        <p>Completed my graduation education with focus on Physics (Honours) , Chemistry, Math. </p>
+      </div>
+    </div>
+
+    <!-- Education 3 -->
+    <div class="timeline-item">
+      <div class="timeline-logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXxyD4106we0JBEGomEMrl6OLIm2XcZYESNw&s" />
+      </div>
+      <div class="timeline-content">
+        <h3>Gov. Junior Science College Kendrapara </h3>
+        <p class="date">Apr 2019 – Apr 2021</p>
+        <p><strong>Stream:</strong> Science ( PCM )</p>
+        <p><strong>Grade:</strong> 54%</p>
+        <p>Completed my higher secondary education with focus on Science.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- contact section  -->
+  <section id="contact" class="contact-section">
+  <h2 class="section-title">Contact</h2>
+  <p class="section-subtitle">— Get In Touch —</p>
+
+  <div class="contact-container">
+
+    <!-- Left: Contact Info -->
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+      <ul>
+        <li><i class="fas fa-envelope"></i> <a href="mailto:pujapaital2@gmail.com">pujapaital2@gmail.com</a></li>
+        <li><i class="fas fa-phone-alt"></i> <a href="tel:+917815037008">+91 7815037008</a></li>
+        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/puja-p-3b2770311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+        <li><i class="fab fa-github"></i> <a href="https://github.com/pujapaital2" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+
+    <!-- Right: Contact Form -->
+    <div class="contact-form">
+      <h3>Message Me</h3>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+        </div>
+        <input type="text" placeholder="Subject" required />
+        <textarea placeholder="Your Message..." rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <p>&copy; 2025 Puja Paital. All rights reserved.</p>
+    <div class="footer-icons">
+      <a href="https://github.com/pujapaital2" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/puja-p-3b2770311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:pujapaital2@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+  </main>
+
+  <script>
+
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll("nav ul li a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 150;
+      if (pageYOffset >= sectionTop) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+      }
+    });
+  });
+
+
+  
+  function toggleMobileNav() {
+    const nav = document.getElementById("mobileNav");
+    nav.classList.toggle("show-nav");
+  }
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+  const typedText = document.getElementById("typed-text");
+  const cursor = document.getElementById("cursor");
+
+  const phrases = ["Full Stack Developer", "Frontend Developer", "Backend Developer"];
+  let phraseIndex = 0;
+  let letterIndex = 0;
+  let currentPhrase = "";
+  let isDeleting = false;
+
+  function type() {
+    currentPhrase = phrases[phraseIndex];
+
+    if (isDeleting) {
+      typedText.textContent = currentPhrase.substring(0, letterIndex--);
+    } else {
+      typedText.textContent = currentPhrase.substring(0, letterIndex++);
+    }
+
+    if (!isDeleting && letterIndex === currentPhrase.length) {
+      isDeleting = true;
+      setTimeout(type, 1500);
+    } else if (isDeleting && letterIndex === 0) {
+      isDeleting = false;
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+      setTimeout(type, 500);
+    } else {
+      setTimeout(type, isDeleting ? 50 : 100);
+    }
+  }
+
+  setTimeout(type, 1000);
+});
+</script>
+
+</body>
+</html>
